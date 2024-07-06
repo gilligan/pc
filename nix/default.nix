@@ -2,10 +2,10 @@
 }:
 let
   pins = import ../npins/default.nix;
+  haskellNix = import pins."haskell.nix" { };
   config = {
     allowUnfree = true;
   };
-  overlays = [
-  ];
+  overlays = [ ] ++ haskellNix.overlays;
 in
-  import pins.nixpkgs { inherit system overlays config; }
+import pins.nixpkgs { inherit system overlays config; }
