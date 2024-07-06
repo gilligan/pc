@@ -1,0 +1,40 @@
+{
+  "pins": {
+    "cardano-transaction-lib": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "Plutonomicon",
+        "repo": "cardano-transaction-lib"
+      },
+      "branch": "master",
+      "revision": "3279526b028c26a6ccb871b7bba4a0cc4a1f2299",
+      "url": "https://github.com/Plutonomicon/cardano-transaction-lib/archive/3279526b028c26a6ccb871b7bba4a0cc4a1f2299.tar.gz",
+      "hash": "05jk4cyhjrdwbbxqy0hp621w00c81rqfiv51ryvmz6zwphsh4h64"
+    },
+    "haskell.nix": {
+      "type": "Git",
+      "repository": {
+        "type": "Git",
+        "url": "https://github.com/input-output-hk/haskell.nix"
+      },
+      "branch": "master",
+      "revision": "3b6056f3866f88d1d16eaeb2e810d3ac0df0e7cd",
+      "url": null,
+      "hash": "1rr3a67ihfs4v994702qfx88h1ibvvg1ym33vkmlp49c0pa8z6m0"
+    },
+    "nixpkgs": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nixos",
+        "repo": "nixpkgs"
+      },
+      "branch": "master",
+      "revision": "47585496bcb13fb72e4a90daeea2f434e2501998",
+      "url": "https://github.com/nixos/nixpkgs/archive/47585496bcb13fb72e4a90daeea2f434e2501998.tar.gz",
+      "hash": "0zx1f3sa4c57y745dkw1hjszrqi0abpkkajwcr69b5dy7w587x79"
+    }
+  },
+  "version": 3
+}
