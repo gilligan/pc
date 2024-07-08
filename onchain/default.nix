@@ -12,13 +12,19 @@ let
     modules = [
       {
         packages = {
-          trustless-sidechain.doHaddock = false;
-          trustless-sidechain-prelude.doHaddock = false;
-          onchain-poc.doHaddock = false;
-          onchain-poc.flags.defer-plugin-errors = false;
-          trustless-sidechain.ghcOptions = [ "-Werror" ];
-          onchain-poc.ghcOptions = [ "-Werror" ];
-          trustless-sidechain-prelude.ghcOptions = [ "-Werror" ];
+          onchain-poc = {
+            doHaddock = false;
+            flags.defer-plugin-errors = false;
+            ghcOptions = [ "-Werror" ];
+          };
+          trustless-sidechain-prelude = {
+            doHaddock = false;
+            ghcOptions = [ "-Werror" ];
+          };
+          trustless-sidechain = {
+            doHaddock = false;
+            ghcOptions = [ "-Werror" ];
+          };
         };
       }
     ];

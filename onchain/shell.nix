@@ -14,6 +14,7 @@ onchain.shellFor {
     gnumake
     haskellPackages.cabal-fmt
     haskellPackages.fourmolu
+    haskellPackages.hoogle
     watchexec
   ];
 }
