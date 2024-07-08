@@ -1,5 +1,29 @@
 {
   "pins": {
+    "blst": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "supranational",
+        "repo": "blst"
+      },
+      "branch": "master",
+      "revision": "v0.3.11",
+      "url": "https://github.com/supranational/blst/archive/v0.3.11.tar.gz",
+      "hash": "1l1c905d5dinj279vyfc8phjnl5fgihbdjgp0z20a92pwv5n7ad2"
+    },
+    "cardano-haskell-packages": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "input-output-hk",
+        "repo": "cardano-haskell-packages"
+      },
+      "branch": "repo",
+      "revision": "e3afe42f8c3a0be8e8fb53602afd57f7839e040a",
+      "url": "https://github.com/input-output-hk/cardano-haskell-packages/archive/e3afe42f8c3a0be8e8fb53602afd57f7839e040a.tar.gz",
+      "hash": "03md160d64k9c95nc0hhwdqkwvn0j6w68gzjzfg8c7rq246y3j0w"
+    },
     "cardano-transaction-lib": {
       "type": "Git",
       "repository": {
@@ -23,6 +47,30 @@
       "url": null,
       "hash": "1rr3a67ihfs4v994702qfx88h1ibvvg1ym33vkmlp49c0pa8z6m0"
     },
+    "iohk-nix": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "input-output-hk",
+        "repo": "iohk-nix"
+      },
+      "branch": "master",
+      "revision": "29f19cd41dc593cf17bbc24194e34e7c20889fc9",
+      "url": "https://github.com/input-output-hk/iohk-nix/archive/29f19cd41dc593cf17bbc24194e34e7c20889fc9.tar.gz",
+      "hash": "0qqcv5jgli4xlikjp8kpja6apzkpmdb1bdd0m4mxrppryfrcalhv"
+    },
+    "libsodium": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "input-output-hk",
+        "repo": "libsodium"
+      },
+      "branch": "master",
+      "revision": "dbb48cce5429cb6585c9034f002568964f1ce567",
+      "url": "https://github.com/input-output-hk/libsodium/archive/dbb48cce5429cb6585c9034f002568964f1ce567.tar.gz",
+      "hash": "1rppbdq2x29mkias9wk225wadwqv59x65m9562xh6crgk0vmrr6j"
+    },
     "nixpkgs": {
       "type": "Git",
       "repository": {
@@ -34,6 +82,18 @@
       "revision": "47585496bcb13fb72e4a90daeea2f434e2501998",
       "url": "https://github.com/nixos/nixpkgs/archive/47585496bcb13fb72e4a90daeea2f434e2501998.tar.gz",
       "hash": "0zx1f3sa4c57y745dkw1hjszrqi0abpkkajwcr69b5dy7w587x79"
+    },
+    "secp256k1": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "bitcoin-core",
+        "repo": "secp256k1"
+      },
+      "branch": "master",
+      "revision": "v0.3.2",
+      "url": "https://github.com/bitcoin-core/secp256k1/archive/v0.3.2.tar.gz",
+      "hash": "12wksk7bi3yfzmk1zwh5b6846zcaycqz1w4w4p23apjc8da4jwpn"
     }
   },
   "version": 3
